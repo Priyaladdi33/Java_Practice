@@ -5,7 +5,7 @@ class ParenthesisCheck{
 	public static void main(String []argh)
 	{
 		Scanner sc = new Scanner(System.in);
-           ;
+           
             while(sc.hasNext())
             {
             	 Stack<Character> stack=new Stack<>();
@@ -35,6 +35,7 @@ class ParenthesisCheck{
                 System.out.println("true");
             }
 	}
+            sc.close();
 }
 }
 
